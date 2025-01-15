@@ -1,0 +1,6 @@
+print("program menghitung nilai akhir")
+nilaitugas=int(input(" nilai tugas:"))
+nilaiuts=int(input(" nilai uts:"))
+nilaiuas=int(input(" nilai uas:"))
+nilaiakhir=(0.3*nilaiuts)+(0.5*nilaiuas)+(0.2*nilaitugas)
+print("nilai akhir:",nilaiakhir)
