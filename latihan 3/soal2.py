@@ -1,8 +1,6 @@
-print("program bonus toko")
-nilai=int(input("nilai belanja pelangan : "))
-if nilai >=1500000 and nilai <5000000:
-    print("mendapatkan bracket TV")
-elif nilai >=5000000:
-    print("mendapatkan sound bar")
-else:
-    print("tidak mendapatkan bonus")
+print("program menghitung nilai akhir")
+nilaitugas=int(input(" nilai tugas:"))
+nilaiuts=int(input(" nilai uts:"))
+nilaiuas=int(input(" nilai uas:"))
+nilaiakhir=(0.3*nilaiuts)+(0.5*nilaiuas)+(0.2*nilaitugas)
+print("nilai akhir:",nilaiakhir)
